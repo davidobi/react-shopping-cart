@@ -6,7 +6,7 @@ import Item from "../items/Item";
 
 type Props = {
     item: CartItemType;
-    addToCart: (cickedItem: CartItemType) => void;
+    addToCart: (clickedItem: CartItemType) => void;
     removeFromCart: (id: number) => void;
 }
 
